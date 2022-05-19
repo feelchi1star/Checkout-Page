@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header>Checkout</header>
+  <div class="flex">
+    <div class="contact-form">
+
+      <!-- Contact info -->
+
+      <form class="form-1" action="#" autocomplete="off">
+        <div class="form-header">Contact information</div>
+        <div class="contact-1">
+          <label for="email" class="labels">Email</label><span class="validity"></span>
+          <input required type="email" name="email" placeholder="Enter your email ..." />
+          <label for="num" class="labels">Phone</label><span class="validity"></span>
+          <input required type="tel" name="num" placeholder="Enter your phone ..." />
+
+        </div>
+        <!-- Shipping Address -->
+        <div class="contact-2">
+          <div class="form-header">Shipping Address</div>
+          <label class="labels" for="name">Full name</label>
+          <input type="text" required name="name" placeholder="John Doe" />
+          <label for="address" class="labels">Address</label>
+          <input type="text" required name="address" placeholder="Your Address" />
+
+          <!-- City -->
+          <label for="city" class="labels">City</label>
+          <input type="text" required name="address" placeholder="Your city.." />
+
+          <!-- Country -->
+          <div class="col">
+            <div>
+              <label for="city" class="labels"><i class="far fa-flag"></i> Country</label>
+              <select name="cars" required class="col-1">
+                <option value="SelectionDefault">
+                  Select your Country
+                </option>
+                <option value="Niger">Niger</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Cameroom">Cameroom</option>
+              </select>
+            </div>
+            <div>
+              <label for="postal" class="labels"><i class="fa fas fa-home"></i> Postal Address</label>
+              <input type="number" name="Postal" class="postal col-1" placeholder="Portal Address" />
+            </div>
+          </div>
+          <label for="save">
+            <input checked type="checkbox" name="save" id="save" />
+            Save this information for next time
+          </label>
+
+          <button type="submit" class="btn">Continue</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Purchased Items Chart -->
+  <div class="pay-form">
+    <div class="chart">
+      <div class="chart-img">
+        <img src="./img/photo1.png" alt="Photo1" srcset="" />
+      </div>
+      <div class="cart-dis">
+        <div class="cart-text">
+          <h4 class="item">Vintage Backbag</h4>
+          <div class="price-section"> <span class="price-color">$54.99</span>
+            <span class="price"> $94.99</span>
+          </div>
+         <!-- spinner -->
+          <div class="spinner">
+            <div class="s-btn">
+              <span class="prev"><i class="fa fas fa-minus"></i></span>
+              <div class="box">
+                <span class="values"> 0 </span>
+              </div>
+              <span class="next"><i class="fa fas fa-plus"></i></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chart">
+      <div class="chart-img">
+        <img src="./img/photo2.png" alt="Photo2" srcset="" />
+      </div>
+      <div class="cart-dis">
+        <div class="cart-text">
+          <h4 class="item ">Levi Shoes</h4>
+          <div class="price-section"> <span class="price-color">$74.99</span>
+            <span class="price"> $124.99</span>
+          </div>
+          <!-- spinner -->
+          <div class="spinner">
+            <div class="s-btn">
+              <span class="prev"><i class="fa fas fa-minus"></i></span>
+              <div class="box">
+                <span class="values"> 0 </span>
+              </div>
+              <span class="next"><i class="fa fas fa-plus"></i></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class=" cart-s">
+        <h3 class="s">Shipping</h3>
+        <span class="small">$19</span>
+      </div>
+      <div class="total cart-s">
+        <h3 class="s">Total</h3>
+        <span class="small">$148.98</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

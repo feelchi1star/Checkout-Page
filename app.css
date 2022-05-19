@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  /* height: 100%; */
+  font-family: Montserrat;
+  font-size: 16px;
+  padding: 8px;
+}
+/* Header text */
+header {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4e5150;
+  margin-left: 3vw;
+}
+/* Form Header */
+.form-header {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px 10px;
+}
+/* Label topography */
+.labels {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+  margin: 15px 20px;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 10px 30px 10px 30px;
+}
+.contact-form {
+  flex: 40%;
+  flex-basis: 300px;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+label {
+  display: block;
+  margin: 1px;
+}
+.contact-form,
+.pay-form {
+  padding: 0px 16px;
+  margin-bottom: 20px;
+}
+/* Input Controls */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 12px;
+}
+
+input {
+  border-radius: 12px;
+  border: 1px solid #828282;
+}
+select {
+  width: 100%;
+  padding: 5px;
+}
+.col {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: 100%;
+}
+.chart-img > img {
+  width: 120px;
+  height: 130px;
+  border-radius: 15%;
+}
+#save {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #4f4f4f;
+
+  transform: rotate(-0.02deg);
+}
+/* Input Number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.btn {
+  float: right;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  background: #f2994a;
+  border-radius: 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+.btn:hover {
+  border: 2px #f2994a solid;
+  background-color: transparent;
+  color: #4e5150;
+  transition: 1s;
+}
+
+/* PAy form  */
+.pay-form {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  border-radius: 12px;
+  flex-basis: 333px;
+  height: 520px;
+}
+.chart {
+  display: flex;
+  justify-content: flex-start;
+  justify-self: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.price-color {
+  color: #f2994a;
+}
+.cart-dis {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-section {
+  margin-top: 5px;
+}
+.cart-footer {
+  display: block;
+}
+.cart-s {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-top: 1px solid #bdbdbd;
+}
+.small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+
+  /* Gray 1 */
+  color: #333333;
+}
+.s {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Gray 1 */
+  color: #333333;
+}
+.item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4e5150;
+}
+.price {
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: line-through;
+  padding-left: 5px;
+}
+.spinner {
+  margin-top: 30px;
+}
+
+.s-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: center;
+  border: 1px solid #828282;
+  border-radius: 12px;
+
+  width: 134.25px;
+  height: 52px;
+}
+.next,
+.prev {
+  background: #e0e0e0;
+  border-radius: 4px;
+  padding: 5px;
+  color: #828282;
+}
+@media (max-width: 540px) {
+  .flex {
+    flex-direction: column-reverse;
+    margin: 1px;
+    gap: 15px;
+  }
+  .chart-img > img {
+    width: 110px;
+    height: 120px;
+  }
+  .pay-form {
+    /* display: block; */
+
+    padding: 10px;
+  }
+  .spinner {
+    position: relative;
+    /* display: block; */
+    margin-top: 30px;
+    width: 100%;
+  }
+  .s-btn {
+    position: relative;
+    width: 110px;
+    height: 45px;
+  }
+  .item {
+    font-size: 4vw;
+  }
+  .price-section {
+    font-size: 14px;
+  }
+  .cart-footer {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .contact-form,
+  .pay-form {
+    padding: 0px 10px;
+    margin-bottom: 0px;
+  }
+}
