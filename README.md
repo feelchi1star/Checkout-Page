@@ -25,7 +25,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -34,8 +34,16 @@
 
 ## Overview
 
+## Desktop View
+
 ![screenshot Desktop View](desktop.png)
+
+## Mobile View
+
 ![screenshot Desktop View](mobile.png)
+
+## Tablet View
+
 ![screenshot Desktop View](tablet.png)
 
 ### Built With
@@ -44,8 +52,6 @@
 - [CSS](https://w3.org/)
 
 ## Features
-
-
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
